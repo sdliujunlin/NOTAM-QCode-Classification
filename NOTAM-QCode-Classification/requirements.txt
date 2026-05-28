@@ -1,0 +1,14 @@
+# NOTAM Q-Code Classification - 依赖包
+# ========================================
+# 两种技术路径共用依赖
+torch>=2.0.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+joblib>=1.2.0
+jieba>=0.42.1
+
+# BERT 深度学习方案专用
+transformers>=4.30.0
+
+# 数据处理（可选，用于 xlsx 读取）
+openpyxl>=3.0.0
